@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    text-decoration: none;
+    background-color: #F6FFF8;
+    margin: 0%;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+header{
+    display: grid;
+    grid-template-columns: 1,1,1,1,1;
+}
+
+
+header, footer{ background-color: #6b9080;
+}
+
+header img{
+    width: 100px;
+    grid-column: 2/3;
+}
+header h1{
+    grid-column: 3;
+}
+
+nav{ background-color: #A4C3B2;}
+
+.card h3{
+    background-color: #CCE3DE;
+}
+
+.card{
+    outline: 2px black;
+    width: 300px;
+    text-align: center;
+}
+
