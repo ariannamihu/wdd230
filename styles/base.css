@@ -1,8 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     text-align: center;
     text-decoration: none;
     background-color: #F6FFF8;
-    margin: 0%;
+    /* margin: 0%; */
+    /* max-width: 800px; */
+}
+
+main{
+    margin: auto;
 
 }
 
@@ -16,7 +27,6 @@ header{
     display: grid;
     grid-template-columns: 1,1,1,1,1;
 }
-
 
 header, footer{ background-color: #6b9080;
 }
@@ -36,8 +46,9 @@ nav{ background-color: #A4C3B2;}
 }
 
 .card{
-    outline: 2px black;
-    width: 300px;
-    text-align: center;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
 }
 
