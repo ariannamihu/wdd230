@@ -26,6 +26,7 @@ a{
 header{
     display: grid;
     grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
+
 }
 
 header, footer{ background-color: #6b9080;
@@ -50,5 +51,12 @@ nav{ background-color: #A4C3B2;}
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 10px;
+}
+
+header, nav, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #A4C3B2;
+    padding: 1rem;
 }
 
