@@ -1,0 +1,62 @@
+
+@import url('normalize.css');
+
+/* Base styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #001219;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #005F73;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #94D2BD;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+/* Responsive Navigation */
+.menu-icon {
+    display: block; /* Show on smaller screens */
+}
+
+.navigation ul {
+    
+    display: none;
+}
+
+.navigation ul.show {
+    display: flex;
+}
+
+.navigation li {
+    margin: 10px 0;
+}
