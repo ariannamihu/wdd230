@@ -41,7 +41,13 @@
     </nav>
 
     <main>
-        <img src="images/cedar-hills-golf-course.jpg" alt="Hero Image">
+        <div class="hero">  
+            <picture>
+                <source srcset="images/cedarhillsmedium.webp" media="(max-width: 1000px">
+                <source srcset="images/cedarhillssmall.webp" media="(max-width: 500px)">
+                <img id="hero-image" src="images/cedarhillslarge.webp" alt="Cedar Hills, UT">
+            </picture>
+        </div> 
         <p>Join us in supporting Cedar Hills' vibrant community – become a member today!</p>
         <div class="card">
             <h3>Current Events</h3>
@@ -54,6 +60,12 @@
         <div class="card">
             <h3>Weather</h3>
             <p>With an average high of 52°F and an average low of 32°F, Cedar Hills offers comfortable temperatures year-round, perfect for outdoor activities and exploring the scenic beauty of our city!</p>
+            <div>  
+                <input type="number" id="temp" placeholder="Temperature">
+                <input type="number" id="windspeed" placeholder="Wind Speed">
+                <button id="calculate">Calculate Wind Chill</button>
+                <p id="windchill"></p>
+            </div>  
         </div>
         <div class="card">
             <h3>Company Spotlights</h3>
@@ -69,5 +81,6 @@
 
     <script src="scripts/getdates.js"></script>
     <script src="scripts/navigation.js"></script>
+    <script src="scripts/windspeed.js"></script>
 </body>
 </html>
