@@ -1,0 +1,8 @@
+#userInputForm{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#userInputForm > input{
+    margin: 15px;
+}
