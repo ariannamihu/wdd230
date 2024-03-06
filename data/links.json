@@ -1,0 +1,35 @@
+{
+    "lessons":[
+        {
+            "lesson":"01",
+            "links": [
+                {
+                    "url":"lesson02/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson":"03",
+            "links": [
+                {
+                    "url":"lesson03/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson":"05",
+            "links": [
+                {
+                    "url":"lesson05/bom.html",
+                    "title":"Book of Mormon"
+                }
+            ]
+        }
+    ]
+}
