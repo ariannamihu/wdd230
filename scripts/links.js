@@ -4,11 +4,11 @@ const linksURL = "https://ariannamihu.github.io/wdd230/data/links.json"
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    displayLinks(data);
+    console.table(data.prophets);
 }
   
-async function displayLinks(weeks) {
+// async function displayLinks(weeks) {
     
-}
+// }
 
 getLinks();
