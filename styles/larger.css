@@ -34,4 +34,18 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section ul, section h2{
+        list-style-type: none;
+        grid-column: 2;
+    }
+    
+    section h2{
+        grid-column: 1;
+    }
 }
