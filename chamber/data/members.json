@@ -1,0 +1,61 @@
+{
+    "companies": [
+      {
+        "name": "Lone Peak Dental",
+        "address": "123 Main St, Cedar Hills, UT",
+        "phone": "555-123-4567",
+        "website": "https://www.lonepeakdental.com",
+        "image": "lone_peak_dental_logo.png",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Marco's Pizza",
+        "address": "456 Elm St, Cedar Hills, UT",
+        "phone": "555-987-6543",
+        "website": "https://www.marcospizza.com",
+        "image": "marcos_pizza_logo.png",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Cedar Hills Golf",
+        "address": "789 Oak St, Cedar Hills, UT",
+        "phone": "555-555-5555",
+        "website": "https://www.cedarhillsgolf.com",
+        "image": "cedar_hills_golf_logo.png",
+        "membership_level": "Platinum"
+      },
+      {
+        "name": "Chase Bank",
+        "address": "321 Maple St, Cedar Hills, UT",
+        "phone": "555-666-7777",
+        "website": "https://www.chase.com",
+        "image": "chase_bank_logo.png",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Chick-fil-A",
+        "address": "567 Pine St, Cedar Hills, UT",
+        "phone": "555-888-9999",
+        "website": "https://www.chick-fil-a.com",
+        "image": "chick_fil_a_logo.png",
+        "membership_level": "Bronze"
+      },
+      {
+        "name": "Elison Orthodontics",
+        "address": "901 Birch St, Cedar Hills, UT",
+        "phone": "555-111-2222",
+        "website": "https://www.elisonorthodontics.com",
+        "image": "elison_orthodontics_logo.png",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Harts",
+        "address": "345 Cedar St, Cedar Hills, UT",
+        "phone": "555-333-4444",
+        "website": "https://www.harts.com",
+        "image": "harts_logo.png",
+        "membership_level": "Bronze"
+      }
+    ]
+  }
+  
