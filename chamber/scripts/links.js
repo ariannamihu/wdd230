@@ -22,19 +22,6 @@ const displayLinks = (companies) => {
          
         image.setAttribute('src', `images/${company.image}`);
 
-        // Create a <ul> element to hold the links for this company
-        // const linksList = document.createElement('ul');
-
-        // // Loop through each link object in the company
-        // company.links.forEach(link => {
-        //     let linkItem = document.createElement('li');
-        //     let linkElement = document.createElement('a');
-        //     linkElement.textContent = link.title;
-        //     linkElement.setAttribute('href', baseURL + link.url); // Set the link URL
-        //     linkItem.appendChild(linkElement);
-        //     linksList.appendChild(linkItem);
-        // });
-
         card.appendChild(title);
         card.appendChild(description);
         card.appendChild(image);
