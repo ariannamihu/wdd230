@@ -21,7 +21,7 @@
         "address": "789 Oak St, Cedar Hills, UT",
         "phone": "555-555-5555",
         "website": "https://www.cedarhillsgolf.com",
-        "image": "cedar_hills_golf_logo.png",
+        "image": "cedar_hills_golf_logo.jpeg",
         "membership_level": "Platinum"
       },
       {
@@ -29,7 +29,7 @@
         "address": "321 Maple St, Cedar Hills, UT",
         "phone": "555-666-7777",
         "website": "https://www.chase.com",
-        "image": "chase_bank_logo.png",
+        "image": "chase_bank_logo.jpeg",
         "membership_level": "Gold"
       },
       {

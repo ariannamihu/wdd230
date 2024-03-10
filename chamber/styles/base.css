@@ -116,3 +116,7 @@ body {
 #userInputForm > input{
     margin: 15px;
 }
+
+#links-container img{
+    width: 100px;
+}
