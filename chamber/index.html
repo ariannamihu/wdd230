@@ -48,6 +48,10 @@
                 <img id="hero-image" src="images/cedarhillslarge.webp" alt="Cedar Hills, UT">
             </picture>
         </div> 
+        <div id="banner" class="banner">
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+            <button id="closeBanner">Close</button>
+        </div>
         <p>Join us in supporting Cedar Hills' vibrant community – become a member today!</p>
         <div class="card">
             <h3>Current Events</h3>
@@ -57,16 +61,18 @@
                 
                 Community Clean-Up Day: Mark your calendars for March 3rd and lend a hand in keeping Cedar Hills beautiful. Join us for a day of volunteerism as we come together to clean up our parks, trails, and public spaces. Together, we can make a difference in our community!</p>
         </div>
-        <div class="card">
+        <section class="card">
             <h3>Weather</h3>
-            <p>With an average high of 52°F and an average low of 32°F, Cedar Hills offers comfortable temperatures year-round, perfect for outdoor activities and exploring the scenic beauty of our city!</p>
-            <div>  
-                <input type="number" id="temp" placeholder="Temperature">
-                <input type="number" id="windspeed" placeholder="Wind Speed">
-                <button id="calculate">Calculate Wind Chill</button>
-                <p id="windchill"></p>
-            </div>  
-        </div>
+            <div id="WeatherInfo">
+                <p>The current temperature in Cedar Hills, UT is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                </figure>
+                <span id="weatherDescription"></span>
+                <h4>Forecast</h4>
+                <div id="forecast"></div>
+            </div>
+        </section>
         <div class="card">
             <h3>Company Spotlights</h3>
             <p>Lone Peak Dental: Experience exceptional dental care and personalized service at Lone Peak Dental. From routine cleanings to advanced cosmetic procedures, their team of experts is dedicated to your oral health and wellness.</p>
@@ -83,5 +89,7 @@
     <script src="scripts/navigation.js"></script>
     <script src="scripts/windspeed.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

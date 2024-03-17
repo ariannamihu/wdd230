@@ -126,3 +126,41 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 15px;
 }
+
+#hero-image{
+    width: 100%;
+    height: auto;
+}
+
+#forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between columns */
+  }
+  
+.forecast-item {
+    background-color: #ccc;
+    width: calc(33.33% - 10px); /* Adjust width to fit 3 columns with margin */
+    margin-bottom: 10px; /* Add margin between forecast items */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border for clarity */
+    box-sizing: border-box;
+}
+
+.banner {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner p {
+    margin: 0;
+}
+
+#closeBanner {
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
