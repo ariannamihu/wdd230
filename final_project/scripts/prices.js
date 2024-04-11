@@ -1,5 +1,5 @@
 const baseURL = "https://ariannamihu.github.io/wdd230/final_project/";
-const linksURL = "https://ariannamihu.github.io/wdd230/final_project/data/prices.json";
+const linksURL = "https://ariannamihu.github.io/wdd230/final_project/data/rentals.json";
 
 async function getInfo() {
     const response = await fetch(linksURL);
@@ -27,4 +27,6 @@ const displayInfo = (rentals) => {
 }
 
 
-displayInfo();
+// displayInfo();
+
+getInfo();

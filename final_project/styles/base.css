@@ -81,3 +81,12 @@ footer{
     margin: 15px;
     width: 90%;
 }
+
+#contactMain {
+    margin: 30px;
+}
+
+#info-container section {
+    margin: 15px;
+    padding: 10px;
+}
