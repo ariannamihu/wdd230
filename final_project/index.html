@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/base.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <nav class="navigation">
+    <li><a class="nav_link" href="index.html">HOME</a></li>
+    <li><a class="nav_link" href="rentals.html">RENTALS</a></li>
+    <li><a class="nav_link" href="reservations.html">RESERVATIONS</a></li>
+    <li><a class="nav_link" href="contact.html">CONTACT</a></li>
+  </nav>
+
+  <div class="closeable-message">
+    Today's high temperature is: <span id="temp-max"></span>
+    <button class="close-button">Close</button>
+  </div>
+
+  <header class="header">
+    <h1>SCOOTS</h1>
+    <img src="images/home_cozumel.webp" alt="Cozumel Mexico">
+
+    <div class="reservation-button">
+      <a href="reservations.html">Make a Reservation</a>
+    </div>
+
+  </header>
+
+  <div class="rental_info">
+    <h2>Types of Rentals</h2>
+    <div class="rental_type">
+      <h3>Honda Motor Scooters</h3>
+      <ul>
+          <li>Honda Metropolitan (49cc) - 1 person</li>
+          <li>Honda Dio (110cc) - 2 person</li>
+          <li>Honda PCX150 (149cc) - 2 person</li>
+      </ul>
+    </div>
+    <div class="rental_type">
+      <h3>Side-by-Side ATVs</h3>
+      <ul>
+          <li>Honda Pioneer 1000 - 4 person</li>
+      </ul>
+    </div>
+    <div class="rental_type">
+      <h3>Jeeps</h3>
+      <ul>
+          <li>Jeep Wrangler - 4 door manual with A/C - 5 person</li>
+          <li>Jeep Wrangler - 2 door - open air - manual - 4 person</li>
+      </ul>
+    </div>
+      
+  </div>
+
+  <section class="card">
+    <h3>Weather</h3>
+    <div id="WeatherInfo">
+        <p>The current temperature in Cozumel, Mexico is <span id="current-temp"></span></p>
+        <p>The humidity is: <span id="humidity"></span>%</p>
+        
+        <figure>
+            <img id="weather-icon" src="" alt="">
+        </figure>
+        <span id="weatherDescription"></span>
+        <h4>Forecast</h4>
+        <div id="forecast"></div>
+    </div>
+  </section> 
+  
+
+  <footer>
+    <!-- Copyright notice -->
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+
+    <!-- Social media link -->
+    <div class="social-media">
+        <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener noreferrer">
+            <img src="images//2959749_facebook_icon.png" alt="Facebook"> 
+        </a>
+    </div>
+</footer>
+</body>
+
+<script src="scripts/weather.js"></script>
+</html>

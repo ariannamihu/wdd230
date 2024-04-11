@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/base.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <nav class="navigation">
+    <li><a class="nav_link" href="index.html">HOME</a></li>
+    <li><a class="nav_link" href="rentals.html">RENTALS</a></li>
+    <li><a class="nav_link" href="reservations.html">RESERVATIONS</a></li>
+    <li><a class="nav_link" href="contact.html">CONTACT</a></li>
+  </nav>
+
+    <main class="rental_main">
+
+        <h1 class="rental_title">Rental Services and Agreements</h1>
+        <ul class="rental_list">
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid driver's license is required in hand at the time of rental.</li>
+            <li>No one under the age of 12 years old is allowed to ride on the scooters.</li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+            <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+            <li>Rentals may be returned to either physical location.</li>
+        </ul>
+        
+        <form id="userInputForm" method="post" id="rentalForm" action="">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+    
+            <label for="period">Period:</label>
+            <select id="period" name="period">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select><br>
+    
+            <label for="rentalType">Rental Type:</label>
+            <select id="rentalType" name="rentalType">
+                <option value="scooter">Scooter</option>
+                <option value="bike">Bike</option>
+                <option value="car">Car</option>
+            </select><br>
+    
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" min="1" required><br>
+    
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="homeLocation">Home State or Country:</label>
+            <input type="text" id="homeLocation" name="homeLocation" required><br>
+    
+            <label for="cruiseLine">Cruise Line (if applicable):</label>
+            <input type="text" id="cruiseLine" name="cruiseLine"><br>
+    
+            <label for="comments">Special Accommodations/Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+    
+            <button type="submit">Submit Rental Request</button>
+        </form>
+    </main>
+  
+
+  <footer>
+    <!-- Copyright notice -->
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+
+    <!-- Social media link -->
+    <div class="social-media">
+        <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener noreferrer">
+            <img src="images//2959749_facebook_icon.png" alt="Facebook"> 
+        </a>
+    </div>
+</footer>
+</body>
+
+<script src="scripts/weather.js"></script>
+</html>
